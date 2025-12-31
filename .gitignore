@@ -1,0 +1,27 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Video Editing Temp Files
+*.prproj.bak
+*.autosave
+Adobe Premiere Pro Auto-Save/
+Resolve Project Backups/
+*.tmp
+*.log
+
+# Large files (consider Git LFS for these if needed)
+# *.mp4
+# *.mov
+# *.wav
+# *.zip
+
+# Local environment
+.env
+.venv/
+node_modules/
