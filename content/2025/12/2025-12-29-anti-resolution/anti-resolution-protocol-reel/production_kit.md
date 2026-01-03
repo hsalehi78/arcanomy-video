@@ -1,6 +1,6 @@
 # 🎬 ARCANOMY PRODUCTION KIT
 ## Script: "January Goals" Reel
-_Generated: 2026-01-02_
+_Generated: 2026-01-02 | Updated: 2026-01-03_
 
 ---
 
@@ -113,6 +113,8 @@ Over-the-shoulder view of person at minimal desk, laptop open, calm morning ligh
 
 ## CATEGORY C — Manual Construction (Canva)
 
+> **Note:** Pixel sizes below are for **Canva** (design tool). When adding text overlays **directly in CapCut**, use the CapCut slider values from the Quick Reference section.
+
 ### C1. Stat Card: "91% Abandon"
 - **Size:** 540×960px
 - **Background:** `#FDF5E6` (Receipt Paper)
@@ -191,21 +193,23 @@ Over-the-shoulder view of person at minimal desk, laptop open, calm morning ligh
 
 ## TABLE B — EXECUTION MAP
 
+> ⚠️ **Font sizes use CapCut slider values, NOT pixels.** Format: `Font: [Name], Size: [Slider] (Token)`
+
 | Beat # | Asset Needed | ML Code | CapCut Steps (Desktop) | SFX |
 |--------|--------------|---------|------------------------|-----|
 | 1 | Calendar B-roll (A1) | ML-04 (Drift) | Import B-roll → **Keyframe** scale 100→105% over 3s + X drift -10px | — |
-| 2 | — | ML-07 (Underline) + ML-09 (Outline Pop) | **Text** → Lora 78px `#EAEAEA` → **Stickers** → underline on "gone" → animate draw-on 300ms | Soft click |
+| 2 | — | ML-07 (Underline) + ML-09 (Outline Pop) | **Text** → Font: Lora, Size: 11 (TYPE_L), Color: `#EAEAEA` → **Stickers** → underline on "gone" → animate draw-on 300ms | Soft click |
 | 3 | Phone B-roll (A2) | ML-04 (Drift) | Import → **Keyframe** slow drift | — |
-| 4 | Phone B-roll (A2) | ML-03 (Depth Stack) + ML-07 | **Text** → Lora TYPE_L `#EAEAEA` → **Cutout** subject (if face-cam) OR place text large, center → underline on "RIGGED" | Marker stroke |
+| 4 | Phone B-roll (A2) | ML-03 (Depth Stack) + ML-07 | **Text** → Font: Lora, Size: 11 (TYPE_L), Color: `#EAEAEA` → **Cutout** subject (if face-cam) OR place text large, center → underline on "RIGGED" | Marker stroke |
 | 5 | 91% stat card (C1), Receipt stamp (C4) | ML-05 (Data Zoom) + ML-10 (Receipt Stamp) | Import stat card → **Animation** → "Slide Up" → hold 0.4s → add receipt stamp top-right, fade in/out 0.6s | Paper slide |
-| 6 | — | ML-07 + ML-11 (Margin Note) | **Text** → "willpower" with strikethrough effect → "Design problem" TYPE_L → small margin note "(not you)" TYPE_S 70% opacity right edge | Soft click |
+| 6 | — | ML-07 + ML-11 (Margin Note) | **Text** → "willpower" with strikethrough → "Design problem" Font: Lora, Size: 11 (TYPE_L) → margin note "(not you)" Font: Montserrat, Size: 5 (TYPE_S), 70% opacity, right edge | Soft click |
 | 7 | Phone UI mockup (optional) | ML-06 (UI Tumble) | **Text** or image → **Animation** → "Slide Up" + rotation -5° → 0° | — |
-| 8 | Desk B-roll (A3) | ML-04 (Drift) + ML-11 | B-roll drift → **Text** TYPE_M → margin note "(the trap)" | — |
-| 9 | Desk B-roll (A3) | ML-07 (Underline) | **Text** → Lora TYPE_L "Build Identity." → underline draw on "identity" | Marker stroke |
+| 8 | Desk B-roll (A3) | ML-04 (Drift) + ML-11 | B-roll drift → **Text** Font: Montserrat, Size: 8 (TYPE_M) → margin note "(the trap)" Font: Montserrat, Size: 5 (TYPE_S) | — |
+| 9 | Desk B-roll (A3) | ML-07 (Underline) | **Text** → Font: Lora, Size: 11 (TYPE_L) "Build Identity." → underline draw on "identity" | Marker stroke |
 | 10 | Comparison chart (C2), Receipt stamp (C4) | ML-05 + ML-10 | Import chart → **Animation** → reveal wipe left→right 500ms → receipt stamp 0.6s → highlight 59% bar after 200ms | Paper slide |
-| 11 | 59% freeze (C3) | ML-05 (One-Number Freeze) | Import freeze card → hold 0.35s static → text "Identity compounds" TYPE_M below | Soft click |
-| 12 | Desk B-roll (A3) | ML-04 (Drift) | Slow zoom 100→103% over 5s → text TYPE_M center | — |
-| 13 | — | ML-07 (Underline) | **Text** → Lora TYPE_L "Any Tuesday." → underline draws on full phrase | Marker stroke |
+| 11 | 59% freeze (C3) | ML-05 (One-Number Freeze) | Import freeze card → hold 0.35s static → text "Identity compounds" Font: Montserrat, Size: 8 (TYPE_M) below | Soft click |
+| 12 | Desk B-roll (A3) | ML-04 (Drift) | Slow zoom 100→103% over 5s → **Text** Font: Montserrat, Size: 8 (TYPE_M), center | — |
+| 13 | — | ML-07 (Underline) | **Text** → Font: Lora, Size: 11 (TYPE_L) "Any Tuesday." → underline draws on full phrase | Marker stroke |
 | 14 | Arcanomy logo mark | ML-04 (Drift) | Fade in logo mark (icon only) center → hold 2s → fade out OR cut to black | — |
 
 ---
@@ -291,16 +295,18 @@ Over-the-shoulder view of person at minimal desk, laptop open, calm morning ligh
 
 # QUICK REFERENCE — TYPE TOKENS
 
-| Token | Size | Use |
-|-------|------|-----|
-| TYPE_XL | 92–110px | Hook keyword, one-number freeze |
-| TYPE_L | 64–78px | Primary beat line |
-| TYPE_M | 44–52px | Secondary line, chart headers |
-| TYPE_S | 28–34px | Labels, margin notes, stamps |
+> ⚠️ **CapCut does NOT use pixels.** Use the slider values below for 1080×1920 canvas.
 
-**Fonts:**
-- Headlines/Hooks: **Lora**
-- Data/Labels: **Montserrat**
+| Token | Design (PX) | CAPCUT SLIDER | Use | Visual QA |
+|-------|-------------|---------------|-----|-----------|
+| TYPE_XL | 92–110px | **14 – 16** | Hook keyword, one-number freeze | 2–3 words/line, thumb-sized |
+| TYPE_L | 64–78px | **10 – 12** | Primary beat line | 4–5 words/line, headline |
+| TYPE_M | 44–52px | **7 – 9** | Secondary line, chart headers | 6–8 words/line |
+| TYPE_S | 28–34px | **5 – 6** | Labels, margin notes, stamps | Smallest legible |
+
+**Fonts:** Lora (headlines) / Montserrat (data/labels)
+
+**CapCut Output Format:** `Font: [Name], Size: [CapCut Value] (Token), Color: [Hex]`
 
 ---
 
@@ -341,5 +347,5 @@ Over-the-shoulder view of person at minimal desk, laptop open, calm morning ligh
 
 ---
 
-_Production Kit generated by Arcanomy Visual Director_
+_Production Kit generated by Arcanomy Visual Director v2.7_
 _Brand Guidelines v1.0 | Motion Style Guide v1.0_

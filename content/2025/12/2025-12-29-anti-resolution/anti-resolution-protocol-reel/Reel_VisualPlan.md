@@ -126,12 +126,17 @@
 - [ ] Restart loop icon animation
 
 ### Text Presets Used
-| Preset | Font | Size | Use |
-|---|---|---:|---|
-| TYPE_XL | Lora | 92–110px | "4 out of 5", "91%", "Any Tuesday" |
-| TYPE_L | Lora | 64–78px | "Design.", "Progress without results", "Every action = a vote" |
-| TYPE_M | Montserrat | 44–52px | Supporting lines |
-| TYPE_S | Montserrat | 28–34px | Labels, margin notes, RECEIPT stamp |
+
+> ⚠️ **CapCut does NOT use pixels.** Use CapCut slider values for 1080×1920 canvas.
+
+| Preset | Font | Design (PX) | CAPCUT SLIDER | Use |
+|--------|------|-------------|---------------|-----|
+| TYPE_XL | Lora | 92–110px | **14 – 16** | "4 out of 5", "91%", "Any Tuesday" |
+| TYPE_L | Lora | 64–78px | **10 – 12** | "Design.", "Progress without results", "Every action = a vote" |
+| TYPE_M | Montserrat | 44–52px | **7 – 9** | Supporting lines |
+| TYPE_S | Montserrat | 28–34px | **5 – 6** | Labels, margin notes, RECEIPT stamp |
+
+**CapCut Format:** `Font: Lora, Size: 15 (TYPE_XL), Color: #EAEAEA`
 
 ### Markup Animations
 | Animation | Count | Timing |
