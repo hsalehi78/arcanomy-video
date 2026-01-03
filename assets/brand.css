@@ -1,0 +1,20 @@
+:root {
+  /* Core Brand Colors */
+  --ar-primary: #C6A76C;   /* Gold (Trust + Premium) */
+  --ar-accent: #ED6C02;    /* Amber (Attention + Heat) */
+
+  /* Surfaces */
+  --ar-bg-dark: #111111;   /* Ink (Dark Backgrounds) */
+  --ar-offwhite: #F2F2F2;  /* Cloud (Page Background) */
+  --ar-paper: #F7F3EE;     /* Beige (Cards/Surfaces) */
+
+  /* Status Colors */
+  --ar-green: #067647;     /* Success (Win / Positive) */
+  --ar-danger: #B42318;    /* Error */
+
+  /* Text Colors */
+  --ar-text-main: #111111; /* Ink */
+  --ar-text-muted: #52525B;
+  
+  /* Note: Blue is removed as it is not part of the core brand palette. */
+}
