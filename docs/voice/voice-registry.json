@@ -1,0 +1,22 @@
+{
+  "narrator_primary": {
+    "label": "Arcanomy Narrator A",
+    "role": "Calm Prosecutor",
+    "gender": "male",
+    "accent": "General American",
+    "model": "eleven_v3",
+    "voice_id": "",
+    "usage": "default",
+    "notes": "Primary explainer voice. Use for all reels and core explainers."
+  },
+  "narrator_secondary": {
+    "label": "Arcanomy Narrator B",
+    "role": "Measured Analyst",
+    "gender": "male",
+    "accent": "General American",
+    "model": "eleven_v3",
+    "voice_id": "",
+    "usage": "reflective_only",
+    "notes": "Secondary voice. Use sparingly for reflective or zoom-out pieces."
+  }
+}

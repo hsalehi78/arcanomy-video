@@ -190,13 +190,40 @@ Use when: the proof needs one clarifying sentence.
 ---
 
 ## 4) Sound
-- VO: intimate, direct, unforced
-- Music bed: low, supportive, not “epic trailer”
-- SFX: minimal; use only to emphasize key reveals
 
-Rule: If audio makes it feel like a generic explainer channel, remove it.
+## 4.1 Audio & Music (concrete)
+Sound is part of the brand. Arcanomy audio must feel **calm, premium, and inevitable**.
 
----
+### Music bed — allowed ranges
+- **BPM:** 70–95 (downtempo, controlled)
+- **Vibe:** minimalist cinematic, subdued electronic, modern ambient, restrained lo‑fi (not cozy/whimsical)
+- **Avoid:** epic trailer builds, EDM drops, “YouTube vlog” ukulele, happy corporate pop
+
+### Track selection rules
+- The bed supports the VO. If you notice the music, it’s too loud or too busy.
+- No melodic hooks that compete with speech.
+- Prefer steady texture over “progression.”
+
+### Licensing guidance (pick one and standardize)
+Options: Artlist / Epidemic Sound / Soundstripe / PremiumBeat  
+Rules:
+- Save the license receipt + track ID in the reel folder.
+- Maintain a small “approved palette” of ~10 beds you reuse.
+
+### VO tone (more specific)
+- **Pace:** slightly slower than typical explainers.
+- **Delivery:** intimate, direct, no “presenter voice.”
+- **Energy:** controlled conviction, not hype.
+- **Rule:** every sentence sounds like it was spoken to one smart friend.
+
+### Mix targets (practical)
+- VO peak: around **-3 to -6 dB**
+- Music bed: typically **-18 to -24 dB** under VO
+- SFX: **barely audible**, used only for proof moments
+
+### SFX palette (keep tiny)
+Allowed: `marker`, `tick`, `tap`, `soft whoosh`  
+Avoid: loud whooshes, risers, impacts, meme sounds
 
 ## 5) Templates (repeatable formats)
 Use 3–5 templates to produce daily without creative fatigue.
@@ -279,3 +306,14 @@ Best for: principles and mental models
 - Is there a real proof moment, not just opinion?
 
 If any answer is “no,” it doesn’t ship.
+
+
+---
+
+## 9) Visual Examples (motion)
+Enforce this guide with the gold standard reel stills (see Brand Guidelines):
+- `examples/motion/hook.png`
+- `examples/motion/receipt.png`
+- `examples/motion/rule.png`
+
+Rule: if an editor can’t match these stills, they rework until they can.

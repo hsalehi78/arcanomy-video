@@ -71,30 +71,52 @@ Not “finance influencer.” Not “bro hustle.” Not “generic explainers.�
 
 ---
 
-## 2.2 Color system (tokens)
-Your palette should feel **premium, calm, and trustworthy**. Avoid neon, overly-saturated gradients, and “fintech slime.”
+## 2.2 Color system (final tokens)
+This palette is **locked**. All UI, charts, and motion graphics must map to these tokens.
+No ad‑hoc colors.
 
-**How to use color**
-- Most pages should be **neutral-driven** (ink, paper, stone).
-- Accent color is for **meaning**, not decoration (primary actions, highlights, key data).
+### Core palette (Arcanomy)
+- **Gold:** `#C6A76C`
+- **Cloud:** `#F2F2F2`
+- **Beige:** `#F7F3EE`
+- **Ink:** `#111111`
+- **Amber:** `#ED6C02`
 
-### Recommended token set
-> Replace values with your finalized “Coco Babe” palette values. Keep the structure.
+### Token mapping (light mode)
+| Token | Hex | Use |
+|---|---:|---|
+| `--bg` | `#F2F2F2` | Page background |
+| `--surface` | `#F7F3EE` | Cards/panels; “paper” surfaces |
+| `--text` | `#111111` | Primary text |
+| `--muted-text` | `#52525B` | Secondary text |
+| `--border` | `#E5E7EB` | Dividers, hairlines |
+| `--primary` | `#C6A76C` | Primary CTAs, brand anchors |
+| `--primary-ink` | `#111111` | Text on Gold |
+| `--accent` | `#ED6C02` | Emphasis, callouts, key data point |
+| `--danger` | `#B42318` | Errors only |
+| `--success` | `#067647` | Success only |
+| `--shadow` | `rgba(17,17,17,0.10)` | Soft shadow base |
 
-| Token | Usage | Sample value (replace) |
-|---|---|---|
-| `--bg` | page background | `#0B0F1A` or `#FFFFFF` |
-| `--surface` | cards, panels | `#111827` / `#F7F7F9` |
-| `--text` | primary text | `#E5E7EB` / `#0B0F1A` |
-| `--muted-text` | secondary text | `#A1A1AA` / `#52525B` |
-| `--border` | separators | `#1F2937` / `#E5E7EB` |
-| `--primary` | CTAs, links | (your primary) |
-| `--primary-ink` | text on primary | auto contrast |
-| `--accent` | highlights, emphasis | (your accent) |
-| `--danger` | errors | (your red) |
-| `--success` | confirmations | (your green) |
+### Token mapping (dark mode)
+If/when you ship dark mode, invert the neutrals and keep Gold/Amber consistent.
 
----
+| Token | Hex | Use |
+|---|---:|---|
+| `--bg` | `#111111` | Page background |
+| `--surface` | `#1A1A1A` | Cards/panels |
+| `--text` | `#F2F2F2` | Primary text |
+| `--muted-text` | `#C7C7C7` | Secondary text |
+| `--border` | `#2A2A2A` | Dividers |
+| `--primary` | `#C6A76C` | Primary CTAs, anchors |
+| `--primary-ink` | `#111111` | Text on Gold |
+| `--accent` | `#ED6C02` | Emphasis |
+| `--danger` | `#F97066` | Errors only |
+| `--success` | `#47CD89` | Success only |
+
+### Usage rules (non‑negotiable)
+- **Gold is for “trust + premium.”** (Primary actions, anchors.)
+- **Amber is for “attention + heat.”** (One highlight, one stat, one callout.)
+- You get **one accent per screen**. If you need more, your hierarchy is weak.
 
 ## 2.3 Typography
 **Headings:** Lora  
@@ -162,6 +184,45 @@ Rules
 
 ---
 
+
+
+## 5.5 Social platform guidelines (visual + voice)
+These rules prevent “random creator energy.”
+
+### Profile aesthetic (Instagram / TikTok / X)
+- Avatar: **Mark-only** (high contrast, no tiny wordmark).
+- Bio: 1 sentence promise + 1 proof cue + 1 CTA.
+  - Example format:  
+    **Where Knowledge Builds Wealth.** Wealth psychology + FIRE clarity. → link
+- Grid: calm, consistent, evidence-first.
+  - Default mix: **70% reels / 20% carousels / 10% stills**  
+  - Quote graphics are rare (only for “rule” posts).
+
+### Highlight covers (IG)
+- Single icon style, Ink on Cloud, optional Gold accent.
+- Labels: 1 word max.
+
+### Story templates
+- One background (Cloud/Beige) + Ink text.
+- One accent use max (Gold *or* Amber).
+- Minimal stickers. Avoid “busy creator UI.”
+
+### Comment voice (non-negotiable)
+- Calm, direct, slightly witty.
+- Never defensive. Never “engagement bait.”
+- If challenged: acknowledge → clarify → give receipt → exit.
+
+### Cross-posting strategy (default)
+Same core reel across platforms, but:
+- **TikTok:** faster hook; captions more literal.
+- **IG:** cleaner typography; less text overall.
+- **X:** post the claim + one stat + link; pin the best performing.
+
+### Captions (rules)
+- 1–2 short paragraphs max.
+- One question at the end only if it’s real (not bait).
+- Hashtags optional; if used, 3–6 max.
+
 ## 6) Quality Gate (ship/no-ship)
 Before publishing anything, ask:
 
@@ -174,6 +235,72 @@ If any answer is “no,” it doesn’t ship.
 
 ---
 
+## 8) Failure examples (what “bad” looks like)
+These aren’t “avoid lists.” These are **do-not-ship patterns**.
+
+### A) Generic finance cliché
+**Looks like:** piggy bank, dollar-sign icons, cartoon graphs, smiling stock photos.  
+**Why it fails:** screams “cheap finance content.”  
+**Fix:** use editorial photography (pressure, choice, consequence) or a clean chart.
+
+### B) Template smell UI
+**Looks like:** symmetrical SaaS hero, 3 feature cards, gradient background, too many chips/badges.  
+**Why it fails:** feels like a template, not authority.  
+**Fix:** tighten hierarchy, reduce color, increase whitespace, sharpen the claim.
+
+### C) Over-kinetic explainer type
+**Looks like:** text flying in every beat, bouncing easing, too many words per frame.  
+**Why it fails:** reads as “explainer spam.”  
+**Fix:** use 2–3 motifs only: underline, receipt stamp, one-number freeze.
+
+### D) Audio mismatch
+**Looks like:** epic trailer builds, EDM drops, loud whooshes.  
+**Why it fails:** breaks calm authority.  
+**Fix:** downtempo bed + minimal marker/tick SFX.
+
+### E) Too many claims
+**Looks like:** one reel tries to teach 4 ideas in 60s.  
+**Why it fails:** nothing sticks.  
+**Fix:** split into two reels. One claim per reel.
+
 ## 7) Governance
 - This document is the truth. Playbooks implement it.
 - Update policy: changes must be intentional and logged (v1.1, v1.2…).
+
+
+## 9) Visual Examples (required)
+Words are not enough. This section defines the **gold standard reference set** that everyone must match.
+
+### 9.1 Website screenshots (3–5)
+**How to capture**
+- Desktop: 1440px wide
+- Mobile: 390×844 viewport
+- Save as PNG, no browser UI
+
+**Required set**
+| File | What it shows | Notes |
+|---|---|---|
+| `examples/web/home-desktop.png` | Home page above the fold | hierarchy + brand |
+| `examples/web/article-desktop.png` | Article page (lede + section headers) | typography rhythm |
+| `examples/web/calculator-mobile.png` | Calculator (cards + inputs + chart) | mobile-first proof |
+| `examples/web/article-mobile.png` | Article mobile view | spacing + readability |
+| `examples/web/nav-footer.png` | Nav + footer | system consistency |
+
+### 9.2 Reel stills (3–5)
+Pull frames from finished reels.
+
+| File | Frame | What it proves |
+|---|---|---|
+| `examples/motion/hook.png` | Hook frame | TYPE_XL discipline + motif |
+| `examples/motion/receipt.png` | Receipt moment | chart style + markup |
+| `examples/motion/one-number-freeze.png` | Key stat | emphasis without hype |
+| `examples/motion/rule.png` | Rule frame | repeatable takeaway |
+| `examples/motion/broll-overlay.png` | B-roll + text | restraint + legibility |
+
+### 9.3 “This vs That” comparison
+Create one comparison image:
+- Left: Arcanomy frame (calm, minimal, 1 accent, 8–12 words max)
+- Right: Generic explainer frame (hyper-kinetic, many colors, too much text)
+
+Save as:
+- `examples/this-vs-that/arcanomy-vs-generic.png`

@@ -148,3 +148,14 @@ If you see any of these, redesign:
 - 6+ colors on one screen
 - gradients used to hide weak hierarchy
 - too many badges, chips, and icons
+
+
+---
+
+## 9) Visual Examples (web)
+Validate changes against the gold standard screenshots listed in the Brand Guidelines:
+- `examples/web/home-desktop.png`
+- `examples/web/article-desktop.png`
+- `examples/web/calculator-mobile.png`
+
+Rule: if a UI change makes those screenshots worse, the change is rejected.
