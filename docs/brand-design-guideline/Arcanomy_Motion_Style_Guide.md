@@ -107,7 +107,7 @@ This is the **Arcanomy signature**: calm analyst markup.
 
 - Stroke width: **6–8 px**
 - Corner radius: **10–14 px**
-- Color: `ACCENT` only (never rainbow)
+- Color: `PRIMARY` only (never rainbow)
 - Shapes: underline, circle, bracket, arrow
 - Animation: draw-on (not pop-in)
 
@@ -136,7 +136,7 @@ Arcanomy reveals should feel **inevitable**, not flashy.
 Charts must feel like receipts, not decoration.
 
 - Gridlines: **light**, minimal
-- One highlight color: `ACCENT`
+- One highlight color: `PRIMARY`
 - Labels: plain language, Montserrat 400–500
 - No 3D, no gradients, no shiny effects
 
@@ -146,13 +146,14 @@ Charts must feel like receipts, not decoration.
 - Highlight point callout: appears **120–200 ms** after main reveal
 
 ### F) Color Tokens (video)
-Keep it restrained:
-- `INK` (text): near-black or near-white depending on background
-- `PAPER` (plates/surfaces): subtle neutral
-- `ACCENT` (one color): used for emphasis + markup
-- `DANGER` / `SUCCESS`: only when meaning demands
+These map to the canonical palette:
+- `BACKGROUND`: `#3A3A3A` (Dark void)
+- `TEXT`: `#EAEAEA` (Neutral reading)
+- `PRIMARY`: `#A47864` (Emphasis + Markup)
+- `PAPER`: `#FDF5E6` (Receipts/Charts only)
+- `SUCCESS`: `#046A38` (Positive delta)
 
-Rule: **1 accent color per reel**.
+Rule: **1 highlight color per reel** (Primary).
 
 ### G) Sound Tokens
 - SFX library should be minimal: “tick”, “tap”, “whoosh-soft”, “marker”

@@ -72,51 +72,31 @@ Not “finance influencer.” Not “bro hustle.” Not “generic explainers.�
 ---
 
 ## 2.2 Color system (final tokens)
-This palette is **locked**. All UI, charts, and motion graphics must map to these tokens.
-No ad‑hoc colors.
+This palette is **locked** and serves as the canonical source of truth.
 
 ### Core palette (Arcanomy)
-- **Gold:** `#C6A76C`
-- **Cloud:** `#F2F2F2`
-- **Beige:** `#F7F3EE`
-- **Ink:** `#111111`
-- **Amber:** `#ED6C02`
+- **Primary:** `#A47864` (Brand anchors, emphasis)
+- **Background:** `#3A3A3A` (Dark void, never pure black)
+- **Text:** `#EAEAEA` (Neutral text)
+- **Receipt Paper:** `#FDF5E6` (Paper texture)
+- **Blue:** `#0056A3` (Source/info tags)
+- **Green:** `#046A38` (Win/positive delta)
 
-### Token mapping (light mode)
+### Token mapping (Default / Video)
 | Token | Hex | Use |
 |---|---:|---|
-| `--bg` | `#F2F2F2` | Page background |
-| `--surface` | `#F7F3EE` | Cards/panels; “paper” surfaces |
-| `--text` | `#111111` | Primary text |
-| `--muted-text` | `#52525B` | Secondary text |
-| `--border` | `#E5E7EB` | Dividers, hairlines |
-| `--primary` | `#C6A76C` | Primary CTAs, brand anchors |
-| `--primary-ink` | `#111111` | Text on Gold |
-| `--accent` | `#ED6C02` | Emphasis, callouts, key data point |
-| `--danger` | `#B42318` | Errors only |
-| `--success` | `#067647` | Success only |
-| `--shadow` | `rgba(17,17,17,0.10)` | Soft shadow base |
-
-### Token mapping (dark mode)
-If/when you ship dark mode, invert the neutrals and keep Gold/Amber consistent.
-
-| Token | Hex | Use |
-|---|---:|---|
-| `--bg` | `#111111` | Page background |
-| `--surface` | `#1A1A1A` | Cards/panels |
-| `--text` | `#F2F2F2` | Primary text |
-| `--muted-text` | `#C7C7C7` | Secondary text |
-| `--border` | `#2A2A2A` | Dividers |
-| `--primary` | `#C6A76C` | Primary CTAs, anchors |
-| `--primary-ink` | `#111111` | Text on Gold |
-| `--accent` | `#ED6C02` | Emphasis |
-| `--danger` | `#F97066` | Errors only |
-| `--success` | `#47CD89` | Success only |
+| `--bg` | `#3A3A3A` | Page/Video background (Dark void) |
+| `--surface` | `#FDF5E6` | Receipt cards/panels (Light paper) |
+| `--text` | `#EAEAEA` | Primary text on dark background |
+| `--text-inverse` | `#3A3A3A` | Text on Receipt Paper |
+| `--primary` | `#A47864` | Primary CTAs, brand anchors, emphasis |
+| `--blue` | `#0056A3` | Info tags, sources |
+| `--success` | `#046A38` | Positive delta, wins |
 
 ### Usage rules (non‑negotiable)
-- **Gold is for “trust + premium.”** (Primary actions, anchors.)
-- **Amber is for “attention + heat.”** (One highlight, one stat, one callout.)
-- You get **one accent per screen**. If you need more, your hierarchy is weak.
+- **Primary is for "Trust + Emphasis."** (Anchors, underlines, key actions.)
+- **Background is always `#3A3A3A`.** Never use pure black `#000000`.
+- **Receipt Paper** is for proof moments (charts, stats, cards).
 
 ## 2.3 Typography
 **Headings:** Lora  
@@ -199,12 +179,12 @@ These rules prevent “random creator energy.”
   - Quote graphics are rare (only for “rule” posts).
 
 ### Highlight covers (IG)
-- Single icon style, Ink on Cloud, optional Gold accent.
+- Single icon style, `Text` on `Background`, optional `Primary` accent.
 - Labels: 1 word max.
 
 ### Story templates
-- One background (Cloud/Beige) + Ink text.
-- One accent use max (Gold *or* Amber).
+- One background (`Background` or `Receipt Paper`) + `Text` (ensure contrast).
+- One accent use max (`Primary`).
 - Minimal stickers. Avoid “busy creator UI.”
 
 ### Comment voice (non-negotiable)

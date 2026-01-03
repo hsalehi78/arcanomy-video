@@ -32,13 +32,19 @@ Use a small fixed scale. No random gaps.
 ---
 
 ## 2) Color Tokens (implementation)
-Your CSS variables / Tailwind tokens should map 1:1 to the Brand Guideline tokens.
+Your CSS variables / Tailwind tokens should map 1:1 to the canonical Brand Guideline tokens.
 
-Example:
-- `bg`, `surface`, `text`, `muted`, `border`
-- `primary`, `accent`, `danger`, `success`
+**Canonical Palette:**
+- `bg`: `#3A3A3A` (Dark void)
+- `text`: `#EAEAEA` (Neutral text)
+- `surface`: `#FDF5E6` (Receipt Paper)
+- `primary`: `#A47864` (Anchors/Emphasis)
+- `blue`: `#0056A3` (Tags)
+- `success`: `#046A38`
 
-Rule: **No component introduces new colors.** Ever.
+**Rules:**
+- **No component introduces new colors.** Ever.
+- **Text on Surface:** When using the light `surface` background (`#FDF5E6`), you MUST use dark text (use `#3A3A3A` for text on paper).
 
 ---
 

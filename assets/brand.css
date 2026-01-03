@@ -1,20 +1,19 @@
 :root {
   /* Core Brand Colors */
-  --ar-primary: #C6A76C;   /* Gold (Trust + Premium) */
-  --ar-accent: #ED6C02;    /* Amber (Attention + Heat) */
+  --ar-primary: #A47864;   /* Primary (Brand anchors, emphasis) */
+  --ar-blue: #0056A3;      /* Blue (Source/info tags) */
 
   /* Surfaces */
-  --ar-bg-dark: #111111;   /* Ink (Dark Backgrounds) */
-  --ar-offwhite: #F2F2F2;  /* Cloud (Page Background) */
-  --ar-paper: #F7F3EE;     /* Beige (Cards/Surfaces) */
-
+  --ar-bg: #3A3A3A;        /* Dark void (never pure black) */
+  --ar-paper: #FDF5E6;     /* Receipt Card (Paper texture) */
+  
   /* Status Colors */
-  --ar-green: #067647;     /* Success (Win / Positive) */
-  --ar-danger: #B42318;    /* Error */
+  --ar-green: #046A38;     /* Win/positive delta */
+  --ar-danger: #B42318;    /* Error - Kept from previous as fallback */
 
   /* Text Colors */
-  --ar-text-main: #111111; /* Ink */
-  --ar-text-muted: #52525B;
+  --ar-text-main: #EAEAEA; /* Neutral text */
+  --ar-text-inverse: #3A3A3A; /* Text on light surfaces */
+  --ar-text-muted: #A1A1AA; /* Adjusted for dark mode contrast */
   
-  /* Note: Blue is removed as it is not part of the core brand palette. */
 }
